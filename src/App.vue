@@ -1,7 +1,17 @@
-<script setup>
-import HelloWorld from './components/AppTitle.vue'
+<script>
+import AppTitle from './components/Apptitle.vue'
+
+export default {
+  name: 'MyApp',
+  data: () => ({}),
+  components: {
+    AppTitle
+  }
+};
 </script>
 
-<template></template>
+<template>
+  <AppTitle />
+</template>
 
 <style scoped></style>
